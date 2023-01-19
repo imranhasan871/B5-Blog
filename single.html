@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap 5 - Blog Design</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">B5 Blog</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Featured Area  -->
+    <div class="container my-4">
+      <div class="row">
+        <h3>Featured Post</h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card mt-4 mt-lg-0">
+            <img src="./images/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Blog Post 1</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                tempore minus sapiente! Similique dolorem, quam sequi veritatis
+                vitae neque veniam.
+              </p>
+              <a href="#" class="">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mt-4 mt-lg-0">
+            <img src="./images/2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Blog Post 2</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                tempore minus sapiente! Similique dolorem, quam sequi veritatis
+                vitae neque veniam.
+              </p>
+              <a href="#" class="">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mt-4 mt-lg-0">
+            <img src="./images/3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Blog Post 3</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                tempore minus sapiente! Similique dolorem, quam sequi veritatis
+                vitae neque veniam.
+              </p>
+              <a href="#" class="">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Area -->
+    <div class="container my-5">
+      <div class="row g-2">
+        <!-- Articles List -->
+        <div class="col-lg-8">
+          <h3>Recent Articles</h3>
+
+          <!-- Article List Group  -->
+          <div class="list-group mt-4">
+            <a
+              href="#"
+              class="list-group-item list-group-item-action"
+              aria-current="true"
+            >
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Blog Post 1</h5>
+                <small>yesterday</small>
+              </div>
+              <p class="mb-1">Lorem ipsum dolor sit amet.</p>
+              <small
+                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
+                unde quod provident pariatur aliquid veritatis!</small
+              >
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action"
+              aria-current="true"
+            >
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Blog Post 1</h5>
+                <small>yesterday</small>
+              </div>
+              <p class="mb-1">Lorem ipsum dolor sit amet.</p>
+              <small
+                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
+                unde quod provident pariatur aliquid veritatis!</small
+              >
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action"
+              aria-current="true"
+            >
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Blog Post 1</h5>
+                <small>yesterday</small>
+              </div>
+              <p class="mb-1">Lorem ipsum dolor sit amet.</p>
+              <small
+                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
+                unde quod provident pariatur aliquid veritatis!</small
+              >
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action"
+              aria-current="true"
+            >
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Blog Post 1</h5>
+                <small>yesterday</small>
+              </div>
+              <p class="mb-1">Lorem ipsum dolor sit amet.</p>
+              <small
+                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
+                unde quod provident pariatur aliquid veritatis!</small
+              >
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action"
+              aria-current="true"
+            >
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Blog Post 1</h5>
+                <small>yesterday</small>
+              </div>
+              <p class="mb-1">Lorem ipsum dolor sit amet.</p>
+              <small
+                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
+                unde quod provident pariatur aliquid veritatis!</small
+              >
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action"
+              aria-current="true"
+            >
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Blog Post 1</h5>
+                <small>yesterday</small>
+              </div>
+              <p class="mb-1">Lorem ipsum dolor sit amet.</p>
+              <small
+                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
+                unde quod provident pariatur aliquid veritatis!</small
+              >
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action"
+              aria-current="true"
+            >
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Blog Post 1</h5>
+                <small>yesterday</small>
+              </div>
+              <p class="mb-1">Lorem ipsum dolor sit amet.</p>
+              <small
+                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
+                unde quod provident pariatur aliquid veritatis!</small
+              >
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action"
+              aria-current="true"
+            >
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Blog Post 1</h5>
+                <small>yesterday</small>
+              </div>
+              <p class="mb-1">Lorem ipsum dolor sit amet.</p>
+              <small
+                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
+                unde quod provident pariatur aliquid veritatis!</small
+              >
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action"
+              aria-current="true"
+            >
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Blog Post 1</h5>
+                <small>yesterday</small>
+              </div>
+              <p class="mb-1">Lorem ipsum dolor sit amet.</p>
+              <small
+                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
+                unde quod provident pariatur aliquid veritatis!</small
+              >
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action"
+              aria-current="true"
+            >
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Blog Post 1</h5>
+                <small>yesterday</small>
+              </div>
+              <p class="mb-1">Lorem ipsum dolor sit amet.</p>
+              <small
+                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
+                unde quod provident pariatur aliquid veritatis!</small
+              >
+            </a>
+          </div>
+          <!-- Article Pagination  -->
+          <nav aria-label="Page navigation" class="mt-4">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <a class="page-link">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Right Sidebar  -->
+        <div class="col-lg-4">
+          <h3>Advertisement</h3>
+          <div class="my-4">
+            <img src="./images/16.jpg" class="w-100" alt="Advertisement" />
+          </div>
+          <h3>Popular Articles</h3>
+          <div class="mt-4">
+            <div class="list-group">
+              <a
+                href="#"
+                class="list-group-item list-group-item-action"
+                aria-current="true"
+              >
+                The current link item
+              </a>
+              <a href="#" class="list-group-item list-group-item-action"
+                >A second link item</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >A third link item</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >A fourth link item</a
+              >
+              <a class="list-group-item list-group-item-action disabled"
+                >A disabled link item</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="w-100 bg-dark">
+      <div class="container text-white py-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Bootstrap 5 - Blog Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+              reprehenderit ut. Magnam eum, dicta rerum reprehenderit minima
+              ducimus accusantium, consequatur nobis laborum nemo non iusto
+              voluptates quasi ullam fuga soluta.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <nav class="nav d-flex">
+              <a class="nav-link active" href="#" aria-current="page"
+                >Active link</a
+              >
+              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Disabled link</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
